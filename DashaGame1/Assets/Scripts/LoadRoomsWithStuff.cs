@@ -52,7 +52,7 @@ public class LoadRoomsWithStuff : MonoBehaviour {
     {
         _myInv = GetComponent<Inventory>();
         roomIndex = 0;
-        lol.helloBombCode();
+        
     }
 
 

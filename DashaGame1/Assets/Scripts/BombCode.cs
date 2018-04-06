@@ -12,34 +12,27 @@ public class BombCode : MonoBehaviour {
 	private string bombName;
 
 
-	public void helloBombCode()
-	{
 	
-	}
-
 	public void Start()
-   {
+   	 {
 		GameObject roomIndex = GameObject.Find("_loadedRoom");
-    LoadRoomsWithStuff playerScript = roomIndex.GetComponent<LoadRoomsWithStuff>();
+    	LoadRoomsWithStuff playerScript = roomIndex.GetComponent<LoadRoomsWithStuff>();
    	
       //GameObject.Find("roomIndex").GetComponent<RoomIndex>();
-
-   }
+   	 }
 
 
 	
 	public void OnSubmit()
 	{
-	
 
 		bombName = nameField.text;
-		if (bombName.CompareTo("wakeup") == 0) 
-		{
-		
 
-		player = GameObject.FindWithTag("Bedroom2");
-		Debug.Log("You defused the bomb"); 
-		}
+		if (bombName.CompareTo("wakeup") == 0) 
+			{
+				player = GameObject.FindWithTag("Bedroom2");
+				Debug.Log("You defused the bomb"); 
+			}
 	}
 
 
