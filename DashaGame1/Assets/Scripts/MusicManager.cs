@@ -37,7 +37,12 @@ public GameObject binarySound;
 		 		{
 					Destroy(activeMusicObject);	
 					activeMusicObject = Instantiate(binarySound);
-		 		}			
+		 		}
+				else if ( cL == 10  )
+				{
+					Destroy(activeMusicObject);	
+					//activeMusicObject = Instantiate(binarySound);
+				}
  		  }
  		}	
  }

@@ -6,7 +6,7 @@ public class HoverOverChangeColour : MonoBehaviour {
 
 
 
-	 SpriteRenderer renderer; 
+ SpriteRenderer renderer; 
 
 
     void Start()

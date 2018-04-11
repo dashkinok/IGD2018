@@ -11,7 +11,6 @@ public class LoadRoomsWithStuff : MonoBehaviour {
     private Inventory _myInv;
     public BombCode other;
    
-    public BombCode lol;
 
     
 
