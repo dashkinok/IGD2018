@@ -5,8 +5,9 @@ using UnityEngine;
 public class MusicManager : MonoBehaviour {
 
 private GameObject activeMusicObject;
-public GameObject kitchenSounds;
+public GameObject kitchenSound;
 public GameObject clockSound;
+public GameObject binarySound;
 
 
  private int cL;
@@ -16,32 +17,29 @@ public GameObject clockSound;
  		return cL;
  	}
  	set{
- 		if (value != cL)
- 		{
+ 		 if (value != cL)
+ 		 {
  			cL = value;
- 			if (cL == 2)
- 			{
- 				Debug.Log("in bedroom");
- 				if (activeMusicObject == null)
+				if (cL == 2 || cL == 11)
  				{
- 					activeMusicObject = Instantiate(clockSound);
- 				} 
- 				
- 			}
- 		
- 			else if ( cL == 3 || cL == 4 || cL == 5 )
- 			{
- 				
- 				if(activeMusicObject = clockSound)
- 				{
- 					Debug.Log("not bedroom");
- 				}
-
- 				activeMusicObject = Instantiate(kitchenSounds);
- 			
- 			}
- 		}
- 	}
+ 					Debug.Log("in bedroom");
+	 				if (activeMusicObject == null)
+	 				{
+	 					activeMusicObject = Instantiate(clockSound);
+	 				}
+ 				}	
+		 		else if ( cL == 3  )
+		 		{
+					Destroy(activeMusicObject);	
+					activeMusicObject = Instantiate(kitchenSound);		 			
+		 		}
+		 		else if ( cL == 6  )
+		 		{
+					Destroy(activeMusicObject);	
+					activeMusicObject = Instantiate(binarySound);
+		 		}			
+ 		  }
+ 		}	
  }
 
  public LoadRoomsWithStuff mySM;

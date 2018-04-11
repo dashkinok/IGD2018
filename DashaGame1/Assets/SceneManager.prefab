@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114472781580969264}
   - component: {fileID: 222476206330136134}
   - component: {fileID: 114877712816976426}
+  - component: {fileID: 114258722996045250}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -30,6 +31,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114258722996045250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1832548214278288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd33dfaaea934b71bcd567f73bee315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tick: {fileID: 8300000, guid: aa75ead1b8e0e4864bb41d06812167ba, type: 3}
 --- !u!114 &114472781580969264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -61,7 +74,7 @@ MonoBehaviour:
   - {fileID: 1748978384395992, guid: 9340d3962a8a941efb65b9ad2a19fc93, type: 2}
   - {fileID: 1069022089842348, guid: 69ac8aa301f7f48258f7d900cf833e95, type: 2}
   - {fileID: 1069880839381726, guid: 4a77dc74350e047d69273ca1088f0c3c, type: 2}
-  - {fileID: 1725508210757838, guid: 004d0d8284eca497c8a7191f13c977b1, type: 2}
+  - {fileID: 1459595662545758, guid: 57bc1b2cb25194dac94d4d917340840a, type: 2}
   - {fileID: 1168518091769972, guid: 92660e197976744afb5fb361852e39ce, type: 2}
   - {fileID: 1802116915402766, guid: c235816d0c5464009a0f0c8aa5fc2f6b, type: 2}
   - {fileID: 1802116915402766, guid: c235816d0c5464009a0f0c8aa5fc2f6b, type: 2}
@@ -69,11 +82,9 @@ MonoBehaviour:
   - {fileID: 1810994726952270, guid: 6680278d7fe9e497aa70be06306963fa, type: 2}
   - {fileID: 1065168495573400, guid: b859265fdc8614e5abf39ff6047a545c, type: 2}
   - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
-  _loadedRoom: {fileID: 1725508210757838, guid: 004d0d8284eca497c8a7191f13c977b1,
-    type: 2}
+  _loadedRoom: {fileID: 0}
   other: {fileID: 0}
   lol: {fileID: 0}
-  _roomIndex: 0
 --- !u!114 &114877712816976426
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -85,9 +96,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcb489f84a92742adb098dbcef8ab985, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenSounds: {fileID: 1068553991366374, guid: 046c893d4d4564806a24c09c2db0cfa4,
+  kitchenSound: {fileID: 1068553991366374, guid: 046c893d4d4564806a24c09c2db0cfa4,
     type: 2}
   clockSound: {fileID: 1318903578900816, guid: 9d5dd0a47c65248d1a5001d10987e52f, type: 2}
+  binarySound: {fileID: 1929198086332524, guid: 365dbea60466642019c1422f420178f7,
+    type: 2}
   mySM: {fileID: 114525078681150362}
 --- !u!222 &222476206330136134
 CanvasRenderer:

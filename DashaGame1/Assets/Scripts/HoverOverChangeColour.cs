@@ -45,13 +45,13 @@ public class HoverOverChangeColour : MonoBehaviour {
     {
         //m_Renderer.material.color = Color.red;
         renderer.color = new Color(0f, 0f, 1f, 0.3f);
-        Debug.Log("here!");
+        
     }
 
     //Change the Material's Color back to white when the mouse exits the GameObject
     void OnMouseExit()
     {
         renderer.color = new Color(0f, 0f, 0f, 0f);
-        Debug.Log("Bye!");
+        
     }
 }

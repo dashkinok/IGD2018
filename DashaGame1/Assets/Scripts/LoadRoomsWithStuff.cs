@@ -15,16 +15,21 @@ public class LoadRoomsWithStuff : MonoBehaviour {
 
     
 
-    public int _roomIndex;
+    private int _roomIndex;
     public int roomIndex
     {
         get
         {
+			//Debug.Log (_roomIndex);
             return _roomIndex;
+
         }
         set
         {
-            Destroy(_loadedRoom);
+           if( _loadedRoom != null )
+            {
+                Destroy(_loadedRoom);
+            }
             _roomIndex = value;
             _loadedRoom = Instantiate(rooms[_roomIndex]);
             Debug.Log(_loadedRoom.name);
