@@ -42,6 +42,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd33dfaaea934b71bcd567f73bee315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myAS: {fileID: 0}
+  timer: 0
+  mySm: {fileID: 0}
   tick: {fileID: 8300000, guid: aa75ead1b8e0e4864bb41d06812167ba, type: 3}
 --- !u!114 &114472781580969264
 MonoBehaviour:
@@ -77,10 +80,13 @@ MonoBehaviour:
   - {fileID: 1459595662545758, guid: 57bc1b2cb25194dac94d4d917340840a, type: 2}
   - {fileID: 1168518091769972, guid: 92660e197976744afb5fb361852e39ce, type: 2}
   - {fileID: 1802116915402766, guid: c235816d0c5464009a0f0c8aa5fc2f6b, type: 2}
-  - {fileID: 1802116915402766, guid: c235816d0c5464009a0f0c8aa5fc2f6b, type: 2}
+  - {fileID: 1065168495573400, guid: b859265fdc8614e5abf39ff6047a545c, type: 2}
   - {fileID: 1482238045901940, guid: d88717e9c1d6c48949a5a9ec6b9f980a, type: 2}
   - {fileID: 1810994726952270, guid: 6680278d7fe9e497aa70be06306963fa, type: 2}
-  - {fileID: 1065168495573400, guid: b859265fdc8614e5abf39ff6047a545c, type: 2}
+  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
+  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
+  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
+  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
   - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
   _loadedRoom: {fileID: 0}
   other: {fileID: 0}

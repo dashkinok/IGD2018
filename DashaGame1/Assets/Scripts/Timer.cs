@@ -72,7 +72,7 @@ public class Timer : MonoBehaviour{
 	void TimerCheckRoom()
 	{
 		// Turn timer on int he dream
-		if (mySm.roomIndex == 6 || mySm.roomIndex == 7 || mySm.roomIndex == 8) {
+		if (mySm.roomIndex == 6 || mySm.roomIndex == 7 || mySm.roomIndex == 8 || mySm.roomIndex == 12) {
 			Debug.Log ("True");
 			isTimerOn = true;
 		} else {

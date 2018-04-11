@@ -177,29 +177,29 @@ if (Input.GetKeyDown(KeyCode.I))
             roomIndex = 6;
             
         }
-        if (roomIndex == 7 && hit.collider.gameObject.tag == "BedRoom2") //Bomb to Bedroom2
+        if (roomIndex == 7 && hit.collider.gameObject.tag == "Bedroom2") //Bomb to Bedroom2
+        {
+            roomIndex = 10;
+            
+        }
+        if (roomIndex == 10 && hit.collider.gameObject.tag == "Diary2") //Bedtoom2 to diary2
         {
             roomIndex = 13;
             
         }
-        if (roomIndex == 13 && hit.collider.gameObject.tag == "diar2-01") //Bedtoom2 to diary
+        if (roomIndex == 13 && hit.collider.gameObject.tag == "BedRoom2") //diary to bedroom
         {
-            roomIndex = 14;
+            roomIndex = 10;
             
         }
-        if (roomIndex == 14 && hit.collider.gameObject.tag == "BedRoom2") //diary to bedroom
-        {
-            roomIndex = 13;
-            
-        }
-        if (roomIndex == 13 && hit.collider.gameObject.tag == "Kitchen") //bedroom2 to kitchen
+        if (roomIndex == 10 && hit.collider.gameObject.tag == "Kitchen") //bedroom2 to kitchen
         {
             roomIndex = 3;
             
         }
         if (roomIndex == 3 && hit.collider.gameObject.tag == "BedRoom2") //kitchen to bedroom2
         {
-            roomIndex = 13;
+            roomIndex = 10;
             
         }
         

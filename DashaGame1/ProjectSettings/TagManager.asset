@@ -19,6 +19,7 @@ TagManager:
   - Destroy
   - Bedroom1
   - Bedroom2
+  - Diary2
   layers:
   - Default
   - TransparentFX
