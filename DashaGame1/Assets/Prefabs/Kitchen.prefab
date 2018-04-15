@@ -137,7 +137,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1148446007772376}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.028, y: 0.108, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.41556665, y: 0.6132963, z: 1}
   m_Children:
   - {fileID: 4004161949405864}
@@ -181,7 +181,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1734680984133226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.026, y: 2.844, z: 0}
+  m_LocalPosition: {x: -11.04, y: 2.844, z: 0}
   m_LocalScale: {x: 0.7767283, y: 3.6989021, z: 3.54384}
   m_Children: []
   m_Father: {fileID: 4027703774843616}
@@ -194,7 +194,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1795285649739894}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.732, y: -0.697, z: -0.01576794}
+  m_LocalPosition: {x: -15.72, y: -0.697, z: -0.01576794}
   m_LocalScale: {x: 1.9335941, y: 2.0118692, z: 1}
   m_Children: []
   m_Father: {fileID: 4027703774843616}
@@ -366,6 +366,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4a978651f094bfebc0aeb8bf9e6df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animNormTime: 0
+  maxSize: 0
+  hangOverColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &114219389323051102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -377,6 +380,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4a978651f094bfebc0aeb8bf9e6df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animNormTime: 0
+  maxSize: 0
+  hangOverColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &114429109440533750
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -388,6 +394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4a978651f094bfebc0aeb8bf9e6df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animNormTime: 0
+  maxSize: 0
+  hangOverColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &114878211231773396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -399,6 +408,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4a978651f094bfebc0aeb8bf9e6df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animNormTime: 0
+  maxSize: 0
+  hangOverColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &114947827912435358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -410,6 +422,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4a978651f094bfebc0aeb8bf9e6df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animNormTime: 0.5
+  maxSize: 1.2
+  hangOverColor: {r: 0.6039216, g: 0.8509804, b: 1, a: 1}
 --- !u!212 &212020923827657230
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -577,7 +592,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 969af674b9e5e48b4a9bc9a555a3efca, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
