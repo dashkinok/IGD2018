@@ -46,10 +46,7 @@ public class LoadRoomsWithStuff : MonoBehaviour {
                     }
                 }
             }
-        }
-
-
-
+        }			
  }
 
     public void Start()
