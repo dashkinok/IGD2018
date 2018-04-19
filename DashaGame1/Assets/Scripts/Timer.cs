@@ -60,7 +60,7 @@ public class Timer : MonoBehaviour{
 		//Keep track of time, display integer, and if gets to 0 change the scene
 		if (isTimerOn == true) {
 			timer -= Time.deltaTime;
-			Debug.Log (timer);
+			//Debug.Log (timer);
 			displayTimer = (int)(timer);
 			if (timer <= 0) {
 				mySm.roomIndex = 9; 
@@ -73,10 +73,10 @@ public class Timer : MonoBehaviour{
 	{
 		// Turn timer on int he dream
 		if (mySm.roomIndex == 6 || mySm.roomIndex == 7 || mySm.roomIndex == 8 || mySm.roomIndex == 12) {
-			Debug.Log ("True");
+//			Debug.Log ("True");
 			isTimerOn = true;
 		} else {
-			Debug.Log ("False");
+//			Debug.Log ("False");
 			isTimerOn = false;
 		} 
 	}
