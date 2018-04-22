@@ -59,7 +59,6 @@ public class GameController : MonoBehaviour {
 
 			if (hit.collider.gameObject.tag == "Bedroom2") {
 				myRl.roomIndex = 10;
-				Debug.Log ("cmon");
 			}
 				
 		} 

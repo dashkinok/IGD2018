@@ -70,6 +70,7 @@ MonoBehaviour:
   - {fileID: 1065168495573400, guid: b859265fdc8614e5abf39ff6047a545c, type: 2}
   - {fileID: 1482238045901940, guid: d88717e9c1d6c48949a5a9ec6b9f980a, type: 2}
   - {fileID: 1810994726952270, guid: 6680278d7fe9e497aa70be06306963fa, type: 2}
+  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
   _loadedRoom: {fileID: 0}
   other: {fileID: 0}
   myCA: {fileID: 0}

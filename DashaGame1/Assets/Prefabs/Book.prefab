@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4178295467582696}
   - component: {fileID: 212308342581091838}
-  - component: {fileID: 114349083465421346}
   - component: {fileID: 61255156638578634}
   m_Layer: 0
   m_Name: Book
@@ -67,18 +66,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.85, y: 0.42}
   m_EdgeRadius: 0
---- !u!114 &114349083465421346
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1347844467066528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 006eb7fde8b0b704994fc555df10008e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCollectableType: 2
 --- !u!212 &212308342581091838
 SpriteRenderer:
   m_ObjectHideFlags: 1

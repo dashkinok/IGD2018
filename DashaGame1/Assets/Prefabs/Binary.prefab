@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4916213596462776}
   - component: {fileID: 212306924926917334}
-  - component: {fileID: 114602389081773992}
   m_Layer: 0
   m_Name: Binary
   m_TagString: Untagged
@@ -55,7 +54,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4639705012856234}
   - component: {fileID: 212146810373440900}
-  - component: {fileID: 114047994381004160}
   - component: {fileID: 60242289422780948}
   - component: {fileID: 114115911607743566}
   m_Layer: 0
@@ -351,18 +349,6 @@ MonoBehaviour:
   animNormTime: 0.7
   maxSize: 1.5
   hangOverColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &114047994381004160
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1138597619883322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 006eb7fde8b0b704994fc555df10008e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCollectableType: 2
 --- !u!114 &114115911607743566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -391,19 +377,6 @@ MonoBehaviour:
   animNormTime: 0.5
   maxSize: 1.2
   hangOverColor: {r: 0.6039216, g: 0.8509804, b: 1, a: 1}
---- !u!114 &114602389081773992
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1069880839381726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8d156f2c58e8d44ca40779903dab5d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollectablesInScene:
-  - {fileID: 1347844467066528, guid: 6698195c4e5ce4580b53f66ff1a9a1a3, type: 2}
 --- !u!212 &212146810373440900
 SpriteRenderer:
   m_ObjectHideFlags: 1
