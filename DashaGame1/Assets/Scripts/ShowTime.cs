@@ -11,19 +11,10 @@ public class ShowTime : MonoBehaviour {
 	
 		_myTM = GetComponent<TextMesh> ();
 		_myTimer = GameObject.Find ("Managers").GetComponent<Timer> ();
-
 	}
 
 	void Update(){
 	
 		_myTM.text = _myTimer.displayTimer.ToString();
-	
-	
-	}
-
-
-
-
-
-
+	}		
 }

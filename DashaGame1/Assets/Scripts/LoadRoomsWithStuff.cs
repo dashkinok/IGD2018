@@ -8,25 +8,21 @@ public class LoadRoomsWithStuff : MonoBehaviour {
 
     public List<GameObject> rooms = new List<GameObject>();
     public GameObject _loadedRoom;
-    private Inventory _myInv;
     public BombCode other;
+	public GameController myCA;
    
-//	public GameController myGC;
 	private int cA;
 	private int correctAnswer;
 	private int _countGuess;
 	private int cG;
 
 	    
-
     private int _roomIndex;
     public int roomIndex
     {
         get
         {
-			//Debug.Log (_roomIndex);
             return _roomIndex;
-
         }
         set
         {
@@ -36,53 +32,17 @@ public class LoadRoomsWithStuff : MonoBehaviour {
             }
             _roomIndex = value;
             _loadedRoom = Instantiate(rooms[_roomIndex]);
-            Debug.Log(_loadedRoom.name);
-            if (_loadedRoom.gameObject.name != "Inventory(Clone)")
-            {
-                _myInv.GetRidOfThingsIveAlreadyCollectedWhenSceneIsLoaded(_loadedRoom.GetComponent<RoomCollectables>());
-            }
-            else
-            {
-                if (_myInv.collectedObjects != null)
-                {
-                    if (_myInv.collectedObjects.Count > 0)
-                    {
-                        _loadedRoom.GetComponent<RoomCollectables>().ShowItemsInInventory(_myInv.collectedObjects);
-                    }
-                }
-            }
         }			
  }
 
     public void Start()
     {
-        _myInv = GetComponent<Inventory> ();
-//		myGC = GetComponent<GameController> ();
-
         roomIndex = 0;
-        
     }
-
-
-	public GameController myCA;
-
-
+		
     public void Update()
 
 {   
-//		correctAnswer = myCA.CorrectAnswer;
-//		cA = correctAnswer;
-//
-//		_countGuess = myCA.countGuess;
-//		cG = _countGuess;
-
-        
- 
-if (Input.GetKeyDown(KeyCode.I))
-        {
-         roomIndex = 1;
-        }
-
   if (Input.GetMouseButtonDown(0)){
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
@@ -120,11 +80,6 @@ if (Input.GetKeyDown(KeyCode.I))
 
 
 
-
-				if (roomIndex == 1 && hit.collider.gameObject.tag == "Kitchen") //Inv to kitchen
-				{
-					roomIndex = 3;
-				}
 				if (roomIndex == 1 && hit.collider.gameObject.tag == "Binary") //InsideFridge to Binary
 				{
 					roomIndex = 6;

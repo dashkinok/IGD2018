@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224609671758365212}
   - component: {fileID: 114525078681150362}
-  - component: {fileID: 114472781580969264}
   - component: {fileID: 222476206330136134}
   - component: {fileID: 114877712816976426}
   - component: {fileID: 114258722996045250}
@@ -46,18 +45,6 @@ MonoBehaviour:
   timer: 0
   mySm: {fileID: 0}
   tick: {fileID: 8300000, guid: aa75ead1b8e0e4864bb41d06812167ba, type: 3}
---- !u!114 &114472781580969264
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1832548214278288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63d3483cbbca6854c9e68d5b02cfa4a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectedObjects: 
 --- !u!114 &114525078681150362
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -71,7 +58,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rooms:
   - {fileID: 1563889921583532, guid: f39d78a2a32d98c4087adad405428592, type: 2}
-  - {fileID: 1158252095383150, guid: dace819ece373474595a412099310f28, type: 2}
+  - {fileID: 0}
   - {fileID: 1618115892938010, guid: 852a46205e6c3394a841b2e2e95092a5, type: 2}
   - {fileID: 1148446007772376, guid: ccd2e8df4111e43a68aa5cdcd26985f6, type: 2}
   - {fileID: 1748978384395992, guid: 9340d3962a8a941efb65b9ad2a19fc93, type: 2}
@@ -83,14 +70,9 @@ MonoBehaviour:
   - {fileID: 1065168495573400, guid: b859265fdc8614e5abf39ff6047a545c, type: 2}
   - {fileID: 1482238045901940, guid: d88717e9c1d6c48949a5a9ec6b9f980a, type: 2}
   - {fileID: 1810994726952270, guid: 6680278d7fe9e497aa70be06306963fa, type: 2}
-  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
-  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
-  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
-  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
-  - {fileID: 1470178739456052, guid: 3a3db3f5b045748ac98c41162a473734, type: 2}
   _loadedRoom: {fileID: 0}
   other: {fileID: 0}
-  lol: {fileID: 0}
+  myCA: {fileID: 0}
 --- !u!114 &114877712816976426
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -129,6 +111,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.935, y: -5.878}
+  m_AnchoredPosition: {x: -12.179, y: -4.297}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
